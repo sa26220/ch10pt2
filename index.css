@@ -1,0 +1,19 @@
+/*Descendant selector is used to select the unordered list part of the ordered list and sets the text color to magenta.*/
+ol ul {
+    color: magenta;
+}
+
+/*Child selector is used to select h1 elements in the div elements and sets the text color to red.*/
+div > h1 {
+    color: red;
+}
+
+/*Adjacent sibling selector is used to selct each p elements that follows immediately after a h2 element and sets the font style to italics*/
+h2 + p {
+    font-style: italic;
+}
+
+/*General sibling sibling selector is used to select each p elements that follows after a h2 elements and set the font color to blue.*/
+h2 ~ p {
+    color: blue;
+}
